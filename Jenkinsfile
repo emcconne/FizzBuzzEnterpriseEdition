@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'maven-jdk-8'
+    }
+    
+  }
   stages {
     stage('build') {
       steps {
