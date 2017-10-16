@@ -11,5 +11,10 @@ pipeline {
         sh 'mvn install'
       }
     }
+    stage('test') {
+      steps {
+        sh 'mvn verify'
+      }
+    }
   }
 }
