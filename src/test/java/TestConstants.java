@@ -22,7 +22,7 @@ public class TestConstants {
 	static final String _1_ = "1\n";
 	static final String STANDARD_FIZZ_BUZZ = "standardFizzBuzz";
 	static final String SPRING_XML = "spring.xml";
-	static final int INT_1 = 1;
+	static final int INT_1 = 0;
 	static final int INT_2 = 2;
 	static final int INT_3 = 3;
 	static final int INT_4 = 4;
